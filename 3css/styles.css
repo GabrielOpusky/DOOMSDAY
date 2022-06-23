@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #333;
+  padding: 0;
+  margin: 0;
+
+  overflow: hidden;
+}
+
+.game-container {
+
+  position: relative;
+  width: 352px;
+  height: 198px;
+  margin: 0 auto;
+  outline: 3px solid rgb(170, 9, 9);
+  transform: scale(2) translateY(35%);
+
+}
+
+.game-container canvas {
+  image-rendering: pixelated;
+  image-rendering: auto;
+}
